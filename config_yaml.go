@@ -15,7 +15,7 @@ type Config struct {
 }
 
 func (c *Config) getConfig() *Config {
-	yamlFile, err := os.ReadFile("conf.yaml")
+	yamlFile, err := os.ReadFile("config.yaml")
 	if err != nil {
 		log.Printf("yamlFile.Get err   #%v ", err)
 	}
