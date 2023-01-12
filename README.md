@@ -8,7 +8,7 @@ cp config.yaml.tpl config.yaml
 vim config.yaml
 
 #execute search and delete keys
-go run *.gos
+go run *.go
 ```
 
 
